@@ -1,0 +1,48 @@
+*{ 
+    font-family: 'Patrick Hand', cursive;
+}
+section { 
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body { 
+    background-color:  #F3CFC6;
+}
+.header { 
+    background-color: #FFF8E7;
+}
+.header h1 { 
+    font-size: 54px;
+    text-shadow: 2px 6px 10px rgba(0, 0, 0, 0.4);
+    color: #4E4E4E;
+    letter-spacing: 5px;
+    font-weight: bold;
+    ;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.btn { 
+    display:block;
+    width: 314px;
+    height: 314px;
+    line-height:100px;
+    border: 2px solid #FFF3C8;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    color: #4E4E4E;
+    text-align:center;
+    text-decoration:none;
+    text-shadow: 2px 6px 10px rgba(0, 0, 0, 0.4);
+    background: #FDD9C5 ;
+    box-shadow: 0 0 3px gray;
+    font-size:54px;
+    font-weight:bold;
+    cursor: pointer;
+}
